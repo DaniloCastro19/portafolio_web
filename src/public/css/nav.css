@@ -1,0 +1,17 @@
+ 
+.home-label , .about-label , .contact-label{
+    display: none;
+} 
+
+.home-icon , .contact-icon , .about-icon {
+    position: relative;
+    transition: 0.5s;
+}
+
+.home-icon:hover , .contact-icon:hover , .about-icon:hover {
+    transform: translateX(-35px) ;
+}
+
+.home-label:hover , .about-label:hover , .contact-label:hover{
+    display: block;
+}
